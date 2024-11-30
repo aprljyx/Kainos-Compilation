@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Elective1CompilationProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".Ge11IntentResult"
+            android:exported="false" />
+        <activity
+            android:name=".TwelvethGuided"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            />
+        <activity
+            android:name=".EleventhGuided"
+            android:exported="false" />
+        <activity
+            android:name=".TenthGuided"
+            android:exported="false" />
+        <activity
+            android:name=".NinthGuided"
+            android:exported="false" />
+        <activity
+            android:name=".EighthGuided"
+            android:exported="false" />
+        <activity
+            android:name=".SeventhGuided"
+            android:exported="false" />
+        <activity
+            android:name=".SixthGuided"
+            android:exported="false" />
+        <activity
+            android:name=".FifthGuided"
+            android:exported="false" />
+        <activity
+            android:name=".FourthGuided"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdGuided"
+            android:exported="false" />
+        <activity
+            android:name=".Second_Guided"
+            android:exported="false" />
+        <activity
+            android:name=".FirstGuided"
+            android:exported="false" />
+        <activity
+            android:name=".calculator"
+            android:exported="false" />
+        <activity
+            android:name=".MachineProblem4Result"
+            android:exported="false" />
+        <activity
+            android:name=".MachineProblem4"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateActivity"
+            android:exported="false"
+            android:label="Update Book"
+            android:parentActivityName=".BookLibraryApp" />
+        <activity
+            android:name=".AddActivity"
+            android:exported="false"
+            android:label="Add Book"
+            android:parentActivityName=".BookLibraryApp" />
+        <activity
+            android:name=".BookLibraryApp"
+            android:exported="false"
+            android:label="Book Library" />
+        <activity
+            android:name=".PAYROLLSUMMARYDETAILS"
+            android:exported="false" />
+        <activity
+            android:name=".EMPLOYEEPAYROLLCOMPUTATION"
+            android:exported="false" />
+        <activity
+            android:name=".CCJitters"
+            android:exported="false" />
+        <activity
+            android:name=".MachineProblem3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
